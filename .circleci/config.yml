@@ -38,7 +38,7 @@ workflows:
       - build-and-push:
           requires:
             - node/test
-          filter: 
+          filters: 
             branches:
               only:
                 - maser
